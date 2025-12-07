@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Media Query</title>
+    <style>
+      .drinks-conatiner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        text-align: center;
+      }
+
+      .drink {
+        border: 1px solid rebeccapurple;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+          rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      .drink img {
+        width: 100%;
+        border-radius: 5px;
+      }
+
+      /* for responsive */
+      /* SMALL  */
+      @media screen and (max-width: 576px) {
+        .drinks-conatiner {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="drinks-conatiner">
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 1</h1>
+        <p>Price: $100</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 2</h1>
+        <p>Price: $200</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 3</h1>
+        <p>Price: $300</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 4</h1>
+        <p>Price: $400</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 5</h1>
+        <p>Price: $500</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 6</h1>
+        <p>Price: $600</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 7</h1>
+        <p>Price: $700</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 8</h1>
+        <p>Price: $800</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 9</h1>
+        <p>Price: $900</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 10</h1>
+        <p>Price: $1000</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 11</h1>
+        <p>Price: $1100</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 12</h1>
+        <p>Price: $1200</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 13</h1>
+        <p>Price: $1300</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 14</h1>
+        <p>Price: $1400</p>
+      </div>
+      <div class="drink">
+        <img src="images.jpeg" alt="" />
+        <h1>Drinks Name - 15</h1>
+        <p>Price: $1500</p>
+      </div>
+    </div>
+  </body>
+</html>
