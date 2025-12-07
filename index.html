@@ -13,7 +13,6 @@
       }
 
       .drink {
-        border: 1px solid rebeccapurple;
         padding: 10px;
         border-radius: 10px;
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
@@ -29,6 +28,20 @@
       @media screen and (max-width: 576px) {
         .drinks-conatiner {
           grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      /* MEDIUM DEVICES  */
+      @media screen and (min-width: 576px) and (max-width: 992px) {
+        .drinks-conatiner {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      /* LARGER DEVICES */
+      @media screen and (min-width: 992px) and (max-width: 1200px) {
+        .drinks-conatiner {
+          grid-template-columns: repeat(3, 1fr);
         }
       }
     </style>
